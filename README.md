@@ -43,5 +43,5 @@ Others - **Youtube Tutorials and of course, Stack Overflow <3**
 
 -----------------------------------------------------------------------------------------------------------
 
-**I plan on having a video recording of the game, once available, I will leave a link to my portfolio page below.**
+**A video of the game will be uploaded [here](pbarbeiro.me) in the next few days.**
 
