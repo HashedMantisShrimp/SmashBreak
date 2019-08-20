@@ -43,5 +43,5 @@ Others - **Youtube Tutorials and of course, Stack Overflow <3**
 
 -----------------------------------------------------------------------------------------------------------
 
-**A video of the game will be uploaded [here](pbarbeiro.me) in the next few days.**
+**A video of the game will be uploaded [here](https://www.pbarbeiro.me/my-collection) in the next few days.**
 
