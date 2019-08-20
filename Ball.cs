@@ -37,7 +37,7 @@ public class Ball : MonoBehaviour
 			pos = Camera.main.ScreenToWorldPoint (new Vector3 (Input.GetTouch (0).position.x, 
 				Input.GetTouch (0).position.y, 1));
 			posL = new Vector2 (Input.GetTouch(0).position.x, Input.GetTouch(0).position.y);
-			Debug.Log (Input.GetTouch (0).position.x);
+			//Debug.Log (Input.GetTouch (0).position.x);
 		}
 		if (Input.touchCount == 2) 
 		{
@@ -83,7 +83,7 @@ public class Ball : MonoBehaviour
 				clone.GetComponent<Rigidbody>().velocity = transform.TransformDirection(new Vector3((msL.x-ScreenCenter.x)/(Screen.width/2)*10,(msL.y-ScreenCenter.y)/(Screen.height/2)*7,BF));	
 				sm.BallUse ();
 				clone.GetComponent<Rigidbody>().useGravity = true;
-				Debug.Log (msL.x); Debug.Log (msL.y);
+				//Debug.Log (msL.x); Debug.Log (msL.y);
 
 			}
 
@@ -129,7 +129,7 @@ public class Ball : MonoBehaviour
 			if (Sp == 0) 
 			{
 				Sp = counter;
-				Debug.Log ("Counter switch ON", gameObject);
+				//Debug.Log ("Counter switch ON", gameObject);
 				temp.GetComponent<MeshRenderer> ().material = material1;
 			}
 			Debug.Log ("Ap: "+Ap+" Sp: "+Sp, gameObject);
