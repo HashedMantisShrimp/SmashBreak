@@ -25,7 +25,7 @@ Although my game is not very "original", it served as the project for my Thesis 
 -The **Coluna** and **MovingObstacle** are essentially the same, managing the movement of obstacles.
 -The **HitCrystals** mannages the allocation of points to the player.
 -The **PlayerSensor** is essentially the enemy AI, which activates certain obstacles only upon player proximity.
--The **PointsScript** works together with the *Ball* to manage the Score and Penalty system.
+-The **PointsScript** works together with the **Ball** to manage the Score and Penalty system.
 -The rest is self explanatory.
 
 ---------------------------------------------------------------------------------------------------------
