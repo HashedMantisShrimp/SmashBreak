@@ -13,7 +13,7 @@ I did not replicate the glass shattering effect (seen on smashed glass objects) 
 The game currently has 5 levels. New features, levels and obstacles are being planned upon for future implementation.
 All in all the game performs as it was meant to perform, works on mobile phones (although it has not been tested on Android devices), works on PCs and the core gameplay resembles that of Smash Hit.
 
-Although my game is not very "original", it served as the project for my Thesis - **The Creation of a Casual Game** - and allowed me to evaluate my skill levels as a game dev (at the time), this project was therefore, a success.
+Although my game is not very "original", it served as the project for my Thesis - **The Creation of a Casual Game** - and (at the time) allowed me to evaluate my skill levels as a game dev, this project was therefore, a success.
 
 ---------------------------------------------------------------------------------------------------------
 
