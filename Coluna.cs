@@ -8,15 +8,11 @@ public class Coluna : MonoBehaviour
     public bool mov = true;
 	public double LSLim = -1.6;
 	public double RSLim = -12.43;
-
-
-
-   
+	
     void Update()
     {
         float trns = Time.deltaTime;
-
-
+	
             if (mov == true)
             {
 				
@@ -36,11 +32,5 @@ public class Coluna : MonoBehaviour
             {
                 mov = true;
             }
-
-            
-        
-
     }
-
-   
 }
