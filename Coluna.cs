@@ -14,8 +14,7 @@ public class Coluna : MonoBehaviour
         float trns = Time.deltaTime;
 	
             if (mov == true)
-            {
-				
+            {		
                 transform.Translate(1 * Vector3.left * trns * hspd); 
             }
             else
