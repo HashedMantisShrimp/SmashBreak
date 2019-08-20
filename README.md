@@ -8,7 +8,7 @@ This repository is intended to showcase the coding behind my most recent project
 
 **Smash Break**'s development started near the end of my "college life". The game was meant to be the project/game for my Thesis as well as a means to evaluate my skills as a Game Developer and more specifically, as a programmer. 
 Being a "one man team" I decided to pick a game that seemed simple enough to create, a game so simple that I alone would be able to take care of all of its aspects (Audio, materials, scripts, animation, etc.), and so I picked 'Smash Hit" and decided to make my own version of it. 
-Thus my game was to become a mobile 3D RailShooter game in which the player would always travel in a forward direction with the objective to reach the final level, which he would accomplish by destroying the objects found in his way with metal balls.
+Thus my game was to become a mobile 3D rail shooter game in which the player would always travel in a forward direction with the objective to reach the final level, which he would accomplish by destroying the objects found in his way with metal balls.
 I did not replicate the glass shattering effect (seen on smashed glass objects) from Smash Hit because the game engine behind it was custom tailored, to achieve the same effects I would either have to create my own game engine or go through big lengths to animate the shattering of all of the obstacles I had created.
 
 The game currently has 5 levels. New features, levels and obstacles are being planned upon for future implementation.
