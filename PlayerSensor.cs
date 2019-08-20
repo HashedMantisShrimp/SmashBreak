@@ -9,17 +9,9 @@ public class PlayerSensor : MonoBehaviour {
 	public bool MovingObstacle = false;
 	public bool Fan = false;
 	public bool TP; //manual assignment of Target position
-	public float TPos; //TargetPos value
+	public float TPos; //Target Position value
 	float TargetPos;
-	 
-	//public ScriptableObject Script;
-
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
-	// Update is called once per frame
 	void Update () {
 		float playerPosZ = MC.transform.position.z;
 		float originPos = gameObject.transform.position.z;
@@ -28,7 +20,6 @@ public class PlayerSensor : MonoBehaviour {
 //		Debug.Log ("OriginPos for "+gameObject+originPos);
 //		Debug.Log ("TargetPos "+TargetPos);
 
-		//if(playerPosZ> ){}
 		if(Coluna==true){
 			if((playerPosZ>=TargetPos) && (playerPosZ<=originPos)){
 				gameObject.GetComponent<Coluna>().enabled = true;
@@ -46,6 +37,5 @@ public class PlayerSensor : MonoBehaviour {
 					gameObject.GetComponent<Animator>().enabled = false;
 					}
 			}
-		
 	}
 }
