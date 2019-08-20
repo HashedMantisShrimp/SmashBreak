@@ -6,15 +6,9 @@ using UnityEngine.UI;
 
 public class HitCrystals : MonoBehaviour {
 
-
-	float cl; //clip lenght check
-	bool ht;
 	public int pts = 3;
 	public bool parent=false;
-	public GameObject prnt;
-
-
-
+	public GameObject prnt; //Parent obj is attached here
 
 	void OnCollisionEnter(Collision collision)
 	{
