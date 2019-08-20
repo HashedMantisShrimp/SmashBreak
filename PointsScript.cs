@@ -7,8 +7,8 @@ using UnityEngine.AI;
 public class PointsScript : MonoBehaviour {
 	[SerializeField] private int cp = 25; // current points 
 	[SerializeField] private Text score;
-	[SerializeField] private AudioClip hit;
-	[SerializeField] private AudioClip Penalty;
+	[SerializeField] private AudioClip hit; // for hit crystals
+	[SerializeField] private AudioClip Penalty; //for hit obstacles
 	[SerializeField] private AudioSource source;
 	[SerializeField] private Camera MC;
 	[SerializeField] private GameObject LB;
@@ -30,7 +30,7 @@ public class PointsScript : MonoBehaviour {
 			gameObject.GetComponent<Image> ().color = Color.gray;
 			score.text = "" + 0;
 			LB.SetActive(true);
-			Debug.Log("GAME OVER");
+			//Debug.Log("GAME OVER");
 		}
 		if (cCheck != counter) {
 			do {
@@ -41,7 +41,6 @@ public class PointsScript : MonoBehaviour {
 				source.Play ();
 				cCheck = counter;
 			} while(cCheck != counter);
-			
 		}
 	}
 
@@ -60,6 +59,6 @@ public class PointsScript : MonoBehaviour {
 		score.text = "" + cp;
 		source.clip = Penalty;
 		source.Play();
-		Debug.Log ("You hit an obstacle");
+		//Debug.Log ("You hit an obstacle");
 	}
 }
