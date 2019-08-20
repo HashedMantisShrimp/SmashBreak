@@ -1,5 +1,6 @@
 # SmashBreak
-Smash Break is a game created by me, meant for iOS phones, it also runs on macOS and Windows PCs.
+Smash Break is a casual, mobile game developed by me.
+Smash Break is meant for iOS devices but it also runs on macOS and Windows PCs.
 The lack of a license is **NOT** an oversight.
 This repository is intended to showcase the coding behind my most recent project/game - **Smash Break**.
 
