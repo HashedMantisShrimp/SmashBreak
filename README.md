@@ -25,19 +25,19 @@ Although my game is not very "original", it served as the project for my Thesis 
 
 **General descritpion of the Scripts**
 
--The **Ball** script is attached to the player (Main Camera) and it essentially manages the whole player experience - The direction, strength and velocity of the balls, the "BallForce" feature as well as the Penalty management.
+-The **[Ball](https://github.com/PauloB04/SmashBreak/blob/master/Ball.cs)** script is attached to the player (Main Camera) and it essentially manages the whole player experience - The direction, strength and velocity of the balls, the "BallForce" feature as well as the Penalty management.
 
--The  **AI** takes care of the navigation system.
+-The  **[AI](https://github.com/PauloB04/SmashBreak/blob/master/AI.cs)** takes care of the navigation system.
 
--The **RobotScript** allows the Gamedev to freely move throughout the gameworld while in Playmode.
+-The **[RobotScript](https://github.com/PauloB04/SmashBreak/blob/master/RobotScript.cs)** allows the Gamedev to freely move throughout the gameworld while in Playmode.
 
--The **Coluna** and **MovingObstacle** are essentially the same, managing the movement of obstacles.
+-The **[Coluna](https://github.com/PauloB04/SmashBreak/blob/master/Coluna.cs)** and **[MovingObstacle](https://github.com/PauloB04/SmashBreak/blob/master/MovingObstacle.cs)** are essentially the same, managing the movement of obstacles.
 
--The **HitCrystals** mannages the allocation of points to the player.
+-The **[HitCrystals](https://github.com/PauloB04/SmashBreak/blob/master/HitCrystals.cs)** mannages the allocation of points to the player.
 
--The **PlayerSensor** is essentially the enemy AI, which activates certain obstacles only upon player proximity.
+-The **[PlayerSensor](https://github.com/PauloB04/SmashBreak/blob/master/PlayerSensor.cs)** is essentially the enemy AI, which activates certain obstacles only upon player proximity.
 
--The **PointsScript** works together with the **Ball** to manage the Score and Penalty system.
+-The **[PointsScript](https://github.com/PauloB04/SmashBreak/blob/master/PointsScript.cs)** works together with the **Ball** to manage the Score and Penalty system.
 
 -The rest is self explanatory.
 
