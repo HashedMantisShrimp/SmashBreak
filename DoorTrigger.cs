@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour {
 
-	public GameObject Door;
+	public GameObject Door; //The door obj is attached
 	public bool hit = false;
-
+	private IEnumerator StartDoorColl;
 
 	void OnCollisionEnter(Collision collision)
 	{
@@ -16,9 +16,8 @@ public class DoorTrigger : MonoBehaviour {
 			transform.Translate(0,0.1f,0);
 
 			for (float f = 10f; f >= 0; f -= 1f)
-			{
-				
-				Color c = gameObject.GetComponent<Renderer>().material.color;//   renderer.material.color;
+			{	
+				Color c = gameObject.GetComponent<Renderer>().material.color;   
 				c.b = f;
 				c.g = f;
 				gameObject.GetComponent<Renderer>().material.color = c;
@@ -39,13 +38,9 @@ public class DoorTrigger : MonoBehaviour {
 
 	}
 
-	private IEnumerator StartDoorColl;
-
 	private IEnumerator DoorCollider(float waitTime)
 	{
-		
 		yield return new WaitForSeconds(waitTime);
 		Door.GetComponent<MeshCollider> ().enabled = false;
-
 	}
 }
