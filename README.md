@@ -1,7 +1,8 @@
 # SmashBreak
-Smash Break is one of the first games I created, meant for iOS phones, but also runs on macOS and Windows PCs.
-The lack of a license is NOT an oversight.
-This repository is intended to showcase the coding behind my most recent project/game - Smash Break.
+Smash Break is a game created by me, meant for iOS phones, it also runs on macOS and Windows PCs.
+The lack of a license is **NOT** an oversight.
+This repository is intended to showcase the coding behind my most recent project/game - **Smash Break**.
+
 -------------------------------------------------------------------------------------------------------
 
 **Smash Break**'s development started near the end of my "college life". The game was meant to be the project/game for my Thesis as well as a means to evaluate my skills as a Game Developer and more specifically, as a programmer. 
@@ -25,6 +26,7 @@ Although my game is not very "original", it served as the project for my Thesis 
 -The **PlayerSensor** is essentially the enemy AI, which activates certain obstacles only upon player proximity.
 -The **PointsScript** works together with the *Ball* to manage the Score and Penalty system.
 -The rest is self explanatory.
+
 ---------------------------------------------------------------------------------------------------------
 
 **The tools used in the creation of Smash Break**
@@ -36,6 +38,7 @@ Creation & modelling of objects: **Autodesk 3ds Max**;
 iOS Deployment - **Xcode**;
 Certain Game components - **Unity Asset Store**;
 Others - **Youtube Tutorials and of course, Stack Overflow <3**
+
 -----------------------------------------------------------------------------------------------------------
 
 **I plan on having a video recording of the game, once available, I will leave a link to my portfolio page below.**
