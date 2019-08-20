@@ -33,7 +33,7 @@ Although my game is not very "original", it served as the project for my Thesis 
 
 -The **[Coluna](https://github.com/PauloB04/SmashBreak/blob/master/Coluna.cs)** and **[MovingObstacle](https://github.com/PauloB04/SmashBreak/blob/master/MovingObstacle.cs)** are essentially the same, managing the movement of obstacles.
 
--The **[HitCrystals](https://github.com/PauloB04/SmashBreak/blob/master/HitCrystals.cs)** mannages the allocation of points to the player.
+-The **[HitCrystals](https://github.com/PauloB04/SmashBreak/blob/master/HitCrystals.cs)** manages the allocation of points to the player.
 
 -The **[PlayerSensor](https://github.com/PauloB04/SmashBreak/blob/master/PlayerSensor.cs)** is essentially the enemy AI, which activates certain obstacles only upon player proximity.
 
