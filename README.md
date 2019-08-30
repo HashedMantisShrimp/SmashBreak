@@ -14,12 +14,9 @@ This repository is intended to showcase the coding behind my most recent project
 Being a "one man team" I decided to pick a game that seemed simple enough to create, a game so simple that I alone would be able to take care of all of its aspects (Audio, materials, scripts, animation, etc.), and so I picked 'Smash Hit" and decided to make my own version of it. 
 
 Thus my game was to become a mobile 3D rail shooter game in which the player would always travel in a forward direction with the objective to reach the final level, which he would accomplish by destroying the objects found in his way with metal balls.
-I did not replicate the glass shattering effect (seen on smashed glass objects) from Smash Hit because the game engine behind it was custom tailored, to achieve the same effects I would either have to create my own game engine or go through big lengths to animate the shattering of all of the obstacles I had created.
 
 The game currently has 5 levels. New features, levels and obstacles are being planned upon for future implementation.
 All in all the game performs as it was meant to perform, works on mobile phones (although it has not been tested on Android devices), works on PCs and the core gameplay resembles that of Smash Hit.
-
-Although my game is not very "original", it served as the project for my Thesis - **The Creation of a Casual Game** - and (at the time) allowed me to evaluate my skill levels as a game dev, this project was therefore, a success.
 
 ---------------------------------------------------------------------------------------------------------
 
