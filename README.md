@@ -58,5 +58,5 @@ Others - **Youtube Tutorials and of course, Stack Overflow <3**
 
 -----------------------------------------------------------------------------------------------------------
 
-**A video of the game can be found on my [portfolio](https://www.pbarbeiro.me/my-collection).**
+**A video of the game can be found [here](https://youtu.be/xWd_8ni4U-g).**
 
